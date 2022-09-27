@@ -1,0 +1,41 @@
+body{
+    background: #4E5A66;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4E5A66 , #0A2C37 );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4E5A66 , #0A2C37 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#content-wrap{
+    display: none;
+}
+
+#chat{
+    height: 480px;
+}
+
+.msg-area{
+    border-radius: 4px;
+}
+
+.msg{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.salir:hover{
+    cursor: pointer;
+}
+
+.enlace-salir{
+    color:#808080;
+}
+
+img{
+    width:30px;
+    height:30px;
+    top: 0.56%;
+    right: 45%;
+    position: absolute;
+    
+}
